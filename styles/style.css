@@ -1,0 +1,35 @@
+body{
+    
+}
+
+.search{
+    box-sizing: border-box;
+    padding: 6px;
+    border: 1px solid grey;
+    float: left;
+    width: 60%;
+    background: #f1f1f1;
+    margin:auto;
+    max-width:265px;
+    margin-top: 40px;
+}
+
+.mapouter{
+    margin-top: 20%;
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 600px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 500px;
+    width: 600px;
+}
+.locaties{
+    margin-left: 40%;
+    font-size: 30px;
+    font-family: avenir 'Times New Roman', Times, serif;
+}
