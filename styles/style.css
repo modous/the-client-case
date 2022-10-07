@@ -24,6 +24,9 @@ body{
 }
 
 .oba{
+    margin-top: 5px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
     margin-left: 10%;
     font-size: 80px;
     font-family: avenir black;
@@ -35,3 +38,29 @@ body{
     height: 500px;
     border: thin solid black;
   }
+
+ul{
+    list-style-type: none;
+    display: block;
+    padding: 0 10px 6px 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 26px;
+    text-transform: lowercase;
+    color: #c22d2d;
+    text-decoration: none;
+    
+}
+li{
+    display: inline;
+
+}
+
+.pls{
+    text-decoration: none;
+}
+
+#dev{
+    text-decoration: none;
+    color: #000000;
+}
