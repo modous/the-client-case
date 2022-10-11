@@ -2,6 +2,14 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+    integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+    crossorigin=""/>
+
+    <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+     integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
+     crossorigin=""></script>
+    
     <script src="scripts/script.js"></script>
     <link rel="stylesheet" href="styles/style.css" />
     <meta charset="UTF-8" />
@@ -13,7 +21,9 @@
 
 </head>
 
-<body onload="initMap();">
+
+<body >
+    
     <h1 class="oba">OBA</h1>
     <nav id="dev">
         <ul>
@@ -38,10 +48,12 @@
     <div id="map" class="mapouter"></div>
      
 
-    <script
+   
+
+    <!-- <script
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
       defer
-    ></script>
+    ></script> -->
 </body>
 
 </html>
