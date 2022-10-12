@@ -1,4 +1,4 @@
-var map = L.map('map').setView([51.505, -0.09], 13);
+var map = L.map('map').setView([52.3759250759437, 4.908394762488651], 13);
 
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -7,9 +7,28 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 
+var marker = L.marker([52.3759250759437, 4.908394762488651]).addTo(map);
+var marker1 = L.marker([52.3889343533289, 4.880050638536307]).addTo(map);
+var marker2 = L.marker([52.36429770883803, 4.938856711551853]).addTo(map);
+var marker3 = L.marker([52.353327900638206, 4.906540513404021]).addTo(map);
 
 
-
+marker.bindPopup("<b>Oosterdokskade</b> 21 1035EG Amsterdam <br><b>telefoon:</b> 020 523 0900<br>" +
+"<b>Openingstijden:</b> 8:00 - 20:00 <br>" +
+ "<b>Aantal studieplekken beschikbaar:</b> 20 <br> <b>bereikbaar voor mindervaliden:</b> ja <br> " +
+"<b> Eerstvolgende activiteit:</b> <br> Oefenuur 6 oktober 2022, van 09:30 tot 17:30 <br>" +
+"<b>Studieplekken:</b> <br>Er zijn op deze vestiging 33 studieplekken, waarvan 8 met een computer en geen stilteplekken. <br>" +
+"<b>faciliteiten</b><br> wifi: publicroam<br> stroom: ja<br> printen/kopiëren: account/voucher<br> toiletten: ja<br>" +
+ "minder validetoiletten: ja<br>horeca/automaat: nee<br>eten toegestaan: op bepaalde plekken<br>").openPopup();
+marker1.bindPopup("<b>Spaarndammerstraat</b> 21 1035EG Amsterdam <br><b>telefoon:</b> 020 523 0900<br>" +
+"<b>Openingstijden:</b> 8:00 - 20:00 <br>" +
+"<b>Aantal studieplekken beschikbaar:</b> 20 <br> <b>bereikbaar voor mindervaliden:</b> ja <br> " +
+"<b> Eerstvolgende activiteit:</b> <br> Oefenuur 6 oktober 2022, van 09:30 tot 17:30 <br>" +
+"<b>Studieplekken:</b> <br>Er zijn op deze vestiging 33 studieplekken, waarvan 8 met een computer en geen stilteplekken. <br>" +
+"<b>faciliteiten</b><br> wifi: publicroam<br> stroom: ja<br> printen/kopiëren: account/voucher<br> toiletten: ja<br>" +
+"minder validetoiletten: ja<br>horeca/automaat: nee<br>eten toegestaan: op bepaalde plekken<br>").openPopup();
+marker2.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
+marker3.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
 
 
   // function initMap() {
@@ -50,14 +69,14 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
   //     '<h1 id="firstHeading" class="firstHeading">OBA Spaarndammerstraat</h1>' +
   //     '<div id="bodyContent">' +
 
-  //     "Spaarndammerstraat 21 1035EG Amsterdam <br><b>telefoon:</b> 020 523 0900<br>" +
-  //     "<b>Openingstijden:</b> 8:00 - 20:00 <br>" +
-  //     "<b>Aantal studieplekken beschikbaar:</b> 20 <br> <b>bereikbaar voor mindervaliden:</b> ja <br> " +
-  //     "<b> Eerstvolgende activiteit:</b> <br> Oefenuur 6 oktober 2022, van 09:30 tot 17:30 <br>" +
-  //     "<b>Studieplekken:</b> <br>Er zijn op deze vestiging 33 studieplekken, waarvan 8 met een computer en geen stilteplekken. <br>" +
-  //     "<b>faciliteiten:</b><br> wifi: publicroam<br> stroom: ja<br> printen/kopiëren: account/voucher<br> toiletten: ja<br>" +
-  //     "minder validetoiletten: ja<br>horeca/automaat: nee<br>eten toegestaan: op bepaalde plekken<br>" +
-  //     "drinken toegestaan: ja<br>zaalverhuur: ja<br>plek reserveren: nee<br>servicebalie / host(ess): ja" +
+      // "Spaarndammerstraat 21 1035EG Amsterdam <br><b>telefoon:</b> 020 523 0900<br>" +
+      // "<b>Openingstijden:</b> 8:00 - 20:00 <br>" +
+      // "<b>Aantal studieplekken beschikbaar:</b> 20 <br> <b>bereikbaar voor mindervaliden:</b> ja <br> " +
+      // "<b> Eerstvolgende activiteit:</b> <br> Oefenuur 6 oktober 2022, van 09:30 tot 17:30 <br>" +
+      // "<b>Studieplekken:</b> <br>Er zijn op deze vestiging 33 studieplekken, waarvan 8 met een computer en geen stilteplekken. <br>" +
+      // "<b>faciliteiten:</b><br> wifi: publicroam<br> stroom: ja<br> printen/kopiëren: account/voucher<br> toiletten: ja<br>" +
+      // "minder validetoiletten: ja<br>horeca/automaat: nee<br>eten toegestaan: op bepaalde plekken<br>" +
+      // "drinken toegestaan: ja<br>zaalverhuur: ja<br>plek reserveren: nee<br>servicebalie / host(ess): ja" +
   //     "</div>" +
   //     "</div>";
 
