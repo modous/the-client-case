@@ -41,6 +41,7 @@ body{
     width: 50%;
     height: 500px;
     border: thin solid black;
+    margin-bottom: 25px;
   }
 
 nav ul{
@@ -114,23 +115,25 @@ color:red;
 
 
 footer{
-    height: 450px;
+    height: 500px;
     background-color: #000000;
     padding-bottom: 0px;
 }
 
 .Hfooter{
-    margin-left: 10%;
+    justify-content: center;
+    text-align: center;
     color: white;
     font-size: large;
     padding-top: 10px;
   
-    text-align: center;
+
    
 }
 
 .Hfooter p{
    padding-left: 10%;
+   font-size: 30px;
 }
 @media (min-width: 570px){
     .Hfooter{
@@ -139,20 +142,13 @@ footer{
 }
 @media (max-width: 570px){
     footer{
-        height: 1200px;
+        height: 1400px;
     }
-}
-
-
-
-.lijst{
-    display: grid;
-    float: left;
-    font-size: 10px;
 }
 
 .Hfooter a{
     display: grid;
-  
+    color: aqua;
+
 }
 
